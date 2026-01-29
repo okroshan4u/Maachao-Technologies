@@ -46,7 +46,7 @@ app.js
 | Repositories | Database queries only                                    |
 | Models       | Database schema mapping                                  |
 ---
-## 📊 Database Schema
+### 📊 Database Schema
 - Product
 - id
 - name
@@ -57,31 +57,23 @@ app.js
 - productId
 - quantity
 - totalPrice
+- createdAt
 
-createdAt
-
-🔌 APIs (Strict)
-Method	Endpoint
-GET	/products
-POST	/orders
+| Method | Endpoint    |
+| ------ | ----------- |
+| GET    | `/products` |
+| POST   | `/orders`   |
 
 No other endpoints exist.
-
-🧠 Order Processing
-
+---
+### 🧠 Order Processing
 The backend:
-
-Validates product existence
-
-Checks available stock
-
-Prevents invalid orders
-
-Calculates total price
-
-Deducts stock
-
-Creates the order
+- Validates product existence
+- Checks available stock
+- Prevents invalid orders
+- Calculates total price
+- Deducts stock
+- Creates the order
 
 All operations run inside one database transaction.
 
