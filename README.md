@@ -83,28 +83,19 @@ The frontend:
 - Allows placing orders
 It does not handle stock, price, or validation logic.
 ---
-🟦 Task 2 – Inventory Allocation System
+### 🟦 Task 2 – Inventory Allocation System
 🧱 Tech Stack
-
 Backend
-
-Node.js
-
-Express
-
-MySQL (InnoDB)
-
-Sequelize
+- Node.js
+- Express
+- MySQL (InnoDB)
+- Sequelize
 
 Frontend
-
-React
-
-Flutter
-
-(Both use the same backend API.)
+- React
 
 📁 Backend Architecture
+```
 routes/
 controllers/
 services/
@@ -112,24 +103,16 @@ repositories/
 models/
 config/
 app.js
-
+```
 📊 Database Schema
 Product
-
-id
-
-name
-
-stock
-
-Order
-
-id
-
-productId
-
-quantity
-
+- id
+- name
+- stock
+- Order
+- id
+- productId
+- quantity
 status
 
 🔌 API (Strict)
