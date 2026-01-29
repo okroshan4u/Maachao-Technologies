@@ -74,19 +74,15 @@ The backend:
 - Calculates total price
 - Deducts stock
 - Creates the order
-
 All operations run inside one database transaction.
+---
 
-🖥️ Frontend Role
-
+### 🖥️ Frontend Role
 The frontend:
-
-Displays product list
-
-Allows placing orders
-
+- Displays product list
+- Allows placing orders
 It does not handle stock, price, or validation logic.
-
+---
 🟦 Task 2 – Inventory Allocation System
 🧱 Tech Stack
 
