@@ -19,55 +19,44 @@ Machao-Demo-Tasks/
 
 ## 🟦 Task 1 – Mini Grocery Order System
 🧱 Tech Stack
-
 Backend
-
-Node.js
-
-Express
-
-MySQL (InnoDB)
-
-Sequelize
-
+- Node.js
+- Express
+- MySQL (InnoDB)
+- Sequelize
+  
 Frontend
-
-Ionic / Angular
-(or simple UI calling the backend APIs)
+- Ionic / Angular
+  (or simple UI calling the backend APIs)
 
 📁 Backend Architecture
+```
 controllers/
 services/
 repositories/
 models/
 config/
 app.js
-
-Layer	Responsibility
-Controllers	Handle HTTP requests & responses
-Services	Business logic (stock validation, pricing, transactions)
-Repositories	Database queries only
-Models	Database schema mapping
-📊 Database Schema
-Product
-
-id
-
-name
-
-price
-
-stock
-
-Order
-
-id
-
-productId
-
-quantity
-
-totalPrice
+```
+---
+| Layer        | Responsibility                                           |
+| ------------ | -------------------------------------------------------- |
+| Controllers  | Handle HTTP requests & responses                         |
+| Services     | Business logic (stock validation, pricing, transactions) |
+| Repositories | Database queries only                                    |
+| Models       | Database schema mapping                                  |
+---
+## 📊 Database Schema
+- Product
+- id
+- name
+- price
+- stock
+- Order
+- id
+- productId
+- quantity
+- totalPrice
 
 createdAt
 
